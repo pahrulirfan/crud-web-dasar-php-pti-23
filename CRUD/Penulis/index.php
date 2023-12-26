@@ -11,6 +11,8 @@
     <div class="alert alert-info">Data Penulis</div>
     <!-- localhost/webdasarpti23/crud/penulis/index.php -->
 
+    <a href="create.php" class="btn btn-primary">Tambah Data</a>
+
     <table class="table table-bordered">
         <thead>
             <tr>
