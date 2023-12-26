@@ -50,6 +50,8 @@
                         </td>
                         <td>
                             <a class="btn btn-warning btn-sm" href="edit.php?id_penulis=<?= $row->id; ?>">Update</a>
+                            <a class="btn btn-danger btn-sm" onclick="return confirm('Anda Yakin ?')"
+                                href="delete.php?id_penulis=<?= $row->id; ?>">Delete</a>
                         </td>
                     </tr>
 
